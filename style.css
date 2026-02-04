@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Header */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 40px;
+    background-color: #1e3a8a;
+    color: white;
+}
+
+.logo-section {
+    display: flex;
+    align-items: center;
+}
+
+.logo-section img {
+    margin-right: 10px;
+}
+
+.nav-links a {
+    margin: 0 10px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.apply-btn {
+    margin-left: 15px;
+    padding: 8px 15px;
+    background-color: #facc15;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/* Explore Section */
+.explore {
+    padding: 40px;
+    text-align: center;
+}
+
+.explore h2 {
+    margin-bottom: 30px;
+    color: #1e3a8a;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 30px;
+}
+
+.card {
+    background: #f1f5f9;
+    padding: 20px;
+    width: 30%;
+    border-radius: 8px;
+}
+
+.card i {
+    font-size: 40px;
+    color: #1e3a8a;
+    margin-bottom: 15px;
+}
+
+.card button {
+    margin-top: 15px;
+    padding: 8px 12px;
+    background-color: #1e3a8a;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+/* Events */
+.events {
+    margin-top: 20px;
+}
+
+.event-btn {
+    padding: 10px 20px;
+    background-color: #2563eb;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+/* Footer */
+.footer {
+    background-color: #1e293b;
+    color: white;
+    padding: 30px;
+    text-align: center;
+}
+
+.footer-links a {
+    margin: 0 10px;
+    color: white;
+    text-decoration: none;
+}
+
+.social-icons {
+    margin: 15px 0;
+}
+
+.social-icons a {
+    margin: 0 10px;
+    color: white;
+    font-size: 20px;
+}
+
+.contact-info p {
+    margin-top: 5px;
+}
